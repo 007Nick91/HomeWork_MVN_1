@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         BonusService service = new BonusService();
         boolean registered = true;
-        long amount = -1_000_000;
+        long amount = 5000;
         long expected = 150;
         long actual = (int) service.calculate(amount,registered);
         System.out.println(expected + "==?==" + actual);
